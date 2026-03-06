@@ -1,0 +1,12 @@
+# .streamlit/config.toml
+
+[theme]
+base = "dark"
+primaryColor = "#9333ea"
+backgroundColor = "#0f172a"
+secondaryBackgroundColor = "#1e293b"
+font = "monospace"
+
+# --- NEW: Hides the default auto-generated sidebar menu ---
+[client]
+showSidebarNavigation = false

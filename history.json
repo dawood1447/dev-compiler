@@ -1,0 +1,242 @@
+[
+    {
+        "timestamp": "2026-03-05 19:20:04",
+        "language": "Python",
+        "code": "def greet(name):\n    return f\"Hello, {name}! Welcome to the compiler.\"\n\nprint(greet(\"Developer\"))\n",
+        "output": "Hello, Developer! Welcome to the compiler.\n"
+    },
+    {
+        "timestamp": "2026-03-06 12:22:55",
+        "language": "Python",
+        "code": "print(\"name\")",
+        "output": "name\n"
+    },
+    {
+        "timestamp": "2026-03-06 12:30:51",
+        "language": "Python",
+        "code": "def greet(name):\n    return f\"Hello, {name}! Welcome to the compiler.\"\n\nprint(greet(\"Developer\"))\n",
+        "output": "Hello, Developer! Welcome to the compiler.\n",
+        "exec_time": "0.0267 seconds"
+    },
+    {
+        "timestamp": "2026-03-06 12:34:57",
+        "language": "Python",
+        "code": "def greet(name):\n    return f\"Hello, {name}! Welcome to the compiler.\"\n\nprint(greet(\"Developer\"))\n",
+        "output": "Hello, Developer! Welcome to the compiler.\n",
+        "exec_time": "0.0222 seconds",
+        "is_error": false
+    },
+    {
+        "timestamp": "2026-03-06 12:35:32",
+        "language": "Python",
+        "code": "def greet(name):\n    return f\"Hello, {name}! Welcome to the compiler.\"\n\nprint(greet(\"Developer\"))\n",
+        "output": "Hello, Developer! Welcome to the compiler.\n",
+        "exec_time": "0.0291 seconds",
+        "is_error": false
+    },
+    {
+        "timestamp": "2026-03-06 12:41:14",
+        "language": "Python",
+        "code": "# Test the input panel!\nname = input()\nprint(f\"Hello, {name}! Welcome to the compiler.\")\n",
+        "user_input": "",
+        "output": "\n--- Errors ---\nTraceback (most recent call last):\n  File \"/tmp/tmp3l4ozn1d.py\", line 2, in <module>\n    name = input()\nEOFError: EOF when reading a line\n",
+        "exec_time": "0.0228 seconds",
+        "is_error": true
+    },
+    {
+        "timestamp": "2026-03-06 12:41:34",
+        "language": "Python",
+        "code": "# Test the input panel!\nname = input()\nprint(f\"Hello, {name}! Welcome to the compiler.\")\n",
+        "user_input": "Dawood",
+        "output": "Hello, Dawood! Welcome to the compiler.\n",
+        "exec_time": "0.0311 seconds",
+        "is_error": false
+    },
+    {
+        "timestamp": "2026-03-06 12:41:52",
+        "language": "Python",
+        "code": "# Test the input panel!\nname = input()\nprint(f\"Hello, {name}! Welcome to the compiler.\")\n",
+        "user_input": "Dawood",
+        "output": "Hello, Dawood! Welcome to the compiler.\n",
+        "exec_time": "0.0269 seconds",
+        "is_error": false
+    },
+    {
+        "timestamp": "2026-03-06 12:42:01",
+        "language": "Python",
+        "code": "# Test the input panel!\nname = input()\nprint(f\"Hello, {name}! Welcome to the compiler.\")\n",
+        "user_input": "",
+        "output": "\n--- Errors ---\nTraceback (most recent call last):\n  File \"/tmp/tmpyynoajdg.py\", line 2, in <module>\n    name = input()\nEOFError: EOF when reading a line\n",
+        "exec_time": "0.0232 seconds",
+        "is_error": true
+    },
+    {
+        "timestamp": "2026-03-06 12:42:36",
+        "language": "Python",
+        "code": "# Test the input panel!\nname = input()\nprint(f\"Hello, {name}! Welcome to the compiler.\")\n",
+        "user_input": "",
+        "output": "\n--- Errors ---\nTraceback (most recent call last):\n  File \"/tmp/tmprtbev3h4.py\", line 2, in <module>\n    name = input()\nEOFError: EOF when reading a line\n",
+        "exec_time": "0.0274 seconds",
+        "is_error": true
+    },
+    {
+        "timestamp": "2026-03-06 12:42:56",
+        "language": "Python",
+        "code": "while True:\n    pass\n",
+        "user_input": "",
+        "output": "Error: Execution timed out (exceeded 5 seconds). Infinite loop maybe?",
+        "exec_time": "5.0059 seconds",
+        "is_error": true
+    },
+    {
+        "timestamp": "2026-03-06 12:48:20",
+        "language": "Python",
+        "version": "Python 3.10.18",
+        "memory": "128.02 MB",
+        "code": "# Test the badges!\nimport math\nprint([math.factorial(i) for i in range(10)])\n",
+        "user_input": "",
+        "output": "[1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880]\n",
+        "exec_time": "0.0291s",
+        "is_error": false
+    },
+    {
+        "timestamp": "2026-03-06 12:50:45",
+        "language": "Python",
+        "version": "Python 3.10.18",
+        "memory": "128.14 MB",
+        "code": "# Test the badges!\nimport math\nprint([math.factorial(i) for i in range(10)])\n",
+        "user_input": "",
+        "output": "[1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880]\n",
+        "exec_time": "0.0273s",
+        "is_error": false
+    },
+    {
+        "timestamp": "2026-03-06 15:01:21",
+        "language": "Python",
+        "version": "Python 3.10.18",
+        "memory": "127.31 MB",
+        "code": "# Test the new Dracula theme!\nimport math\nprint(\"Calculating factorials:\")\nprint([math.factorial(i) for i in range(10)])\n",
+        "user_input": "",
+        "output": "Calculating factorials:\n[1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880]\n",
+        "exec_time": "0.019s",
+        "is_error": false
+    },
+    {
+        "timestamp": "2026-03-06 15:06:58",
+        "language": "Python",
+        "version": "Python 3.10.18",
+        "memory": "127.77 MB",
+        "code": "# Test the new Terminal Output!\nimport sys\nprint(\"Hello from the custom IDE!\")\nprint(\"This looks like a real terminal now.\", file=sys.stderr)\n",
+        "user_input": "",
+        "output": "Hello from the custom IDE!\n\n--- Errors ---\nThis looks like a real terminal now.\n",
+        "exec_time": "0.021s",
+        "is_error": true
+    },
+    {
+        "timestamp": "2026-03-06 15:07:27",
+        "language": "Python",
+        "version": "Python 3.10.18",
+        "memory": "127.78 MB",
+        "code": "# Test the new Terminal Output!\nimport sys\nprint(\"Hello from the custom IDE!\")\nprint(\"This looks like a real terminal now.\", file=sys.stderr)\n",
+        "user_input": "",
+        "output": "Hello from the custom IDE!\n\n--- Errors ---\nThis looks like a real terminal now.\n",
+        "exec_time": "0.023s",
+        "is_error": true
+    },
+    {
+        "timestamp": "2026-03-06 15:07:32",
+        "language": "Python",
+        "version": "Python 3.10.18",
+        "memory": "127.79 MB",
+        "code": "# Test the new Terminal Output!\nprint(\"Name\")",
+        "user_input": "",
+        "output": "Name\n",
+        "exec_time": "0.021s",
+        "is_error": false
+    },
+    {
+        "timestamp": "2026-03-06 15:09:38",
+        "language": "Python",
+        "version": "Python 3.10.18",
+        "memory": "127.79 MB",
+        "code": "# Test the new Terminal Output!\nimport sys\nprint(\"Hello from the custom IDE!\")\nprint(\"This looks like a real terminal now.\", file=sys.stderr)\n",
+        "user_input": "",
+        "output": "Hello from the custom IDE!\n\n--- Errors ---\nThis looks like a real terminal now.\n",
+        "exec_time": "0.014s",
+        "is_error": true
+    },
+    {
+        "timestamp": "2026-03-06 15:10:36",
+        "language": "Python",
+        "version": "Python 3.10.18",
+        "memory": "128.04 MB",
+        "code": "# Test the new Terminal Output!\nimport sys\nprint(\"Hello from the custom IDE!\")\nprint(\"This looks like a real terminal now.\", file=sys.stderr)\n",
+        "user_input": "",
+        "output": "Hello from the custom IDE!\n\n--- Errors ---\nThis looks like a real terminal now.\n",
+        "exec_time": "0.019s",
+        "is_error": true
+    },
+    {
+        "timestamp": "2026-03-06 15:10:47",
+        "language": "Python",
+        "version": "Python 3.10.18",
+        "memory": "128.07 MB",
+        "code": "# Test the new Terminal Output!\nimport sys\nprint(\"Name\")",
+        "user_input": "",
+        "output": "Name\n",
+        "exec_time": "0.020s",
+        "is_error": false
+    },
+    {
+        "timestamp": "2026-03-06 15:13:48",
+        "language": "Python",
+        "version": "Python 3.10.18",
+        "memory": "128.07 MB",
+        "code": "# Test the new Terminal Output!\nimport sys\nprint(\"Hello from the custom IDE!\")\nprint(\"This looks like a real terminal now.\", file=sys.stderr)\n",
+        "user_input": "",
+        "output": "Hello from the custom IDE!\n\n--- Errors ---\nThis looks like a real terminal now.\n",
+        "exec_time": "0.023s",
+        "is_error": true
+    },
+    {
+        "timestamp": "2026-03-06 15:19:09",
+        "language": "Python",
+        "version": "Python 3.10.18",
+        "memory": "128.08 MB",
+        "code": "# Test the new Terminal Output!\nimport sys\nprint(\"Hello from the custom IDE!\")\nprint(\"This looks like a real terminal now.\", file=sys.stderr)\n",
+        "user_input": "",
+        "output": "Hello from the custom IDE!\n\n--- Errors ---\nThis looks like a real terminal now.\n",
+        "exec_time": "0.020s",
+        "is_error": true
+    },
+    {
+        "timestamp": "2026-03-06 16:15:55",
+        "language": "Python",
+        "version": "Python 3.10.18",
+        "memory": "135.59 MB",
+        "code": "name = input('Enter your name: ')\nprint(f'Hello, {name}! Welcome to the compiler.')",
+        "output": "Enter your name: Hello, Dawood! Welcome to the compiler.\n",
+        "exec_time": "0.020s",
+        "is_error": false
+    },
+    {
+        "timestamp": "2026-03-06 16:16:13",
+        "language": "Python",
+        "version": "Python 3.10.18",
+        "memory": "135.61 MB",
+        "code": "for i in range(1, 6):\n    print(f'Processing item {i}...')",
+        "output": "Processing item 1...\nProcessing item 2...\nProcessing item 3...\nProcessing item 4...\nProcessing item 5...\n",
+        "exec_time": "0.026s",
+        "is_error": false
+    },
+    {
+        "timestamp": "2026-03-06 16:16:30",
+        "language": "Python",
+        "version": "Python 3.10.18",
+        "memory": "135.61 MB",
+        "code": "import math\n\ndef calculate_area(radius):\n    return math.pi * (radius ** 2)\n\nprint(f'Area of circle (r=5): {calculate_area(5):.2f}')",
+        "output": "Area of circle (r=5): 78.54\n",
+        "exec_time": "0.019s",
+        "is_error": false
+    }
+]
