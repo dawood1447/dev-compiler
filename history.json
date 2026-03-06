@@ -238,5 +238,35 @@
         "output": "Area of circle (r=5): 78.54\n",
         "exec_time": "0.019s",
         "is_error": false
+    },
+    {
+        "timestamp": "2026-03-06 16:56:36",
+        "language": "C",
+        "version": "gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0",
+        "memory": "135.18 MB",
+        "code": "#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}",
+        "output": "Hello, World!\n",
+        "exec_time": "0.001s",
+        "is_error": false
+    },
+    {
+        "timestamp": "2026-03-06 16:56:59",
+        "language": "JavaScript",
+        "version": "v8.10.0",
+        "memory": "135.38 MB",
+        "code": "console.log('Hello, World!');",
+        "output": "Hello, World!\n",
+        "exec_time": "0.278s",
+        "is_error": false
+    },
+    {
+        "timestamp": "2026-03-06 17:16:07",
+        "language": "C++",
+        "version": "g++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0",
+        "memory": "155.62 MB",
+        "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello, World!\" << endl;\n    return 0;\n}",
+        "output": "Hello, World!\n",
+        "exec_time": "0.001s",
+        "is_error": false
     }
 ]

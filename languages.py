@@ -1,22 +1,37 @@
 # languages.py
 
-"""
-Configuration for supported programming languages.
-Each language maps to its file extension and the base command used to run it.
-"""
-
 SUPPORTED_LANGUAGES = {
     "Python": {
         "extension": ".py",
-        # Using python3 for Linux/Mac. If on Windows, you might just use "python"
-        "command": "python3" 
+        "compile_cmd": None,
+        "run_cmd": ["python3", "{file}"],
+        "version_cmd": ["python3", "--version"]
     },
     "JavaScript": {
         "extension": ".js",
-        "command": "node"
+        "compile_cmd": None,
+        "run_cmd": ["node", "{file}"],
+        "version_cmd": ["node", "--version"]
+    },
+    "C": {
+        "extension": ".c",
+        "compile_cmd": ["gcc", "{file}", "-o", "{dir}/a.out"],
+        "run_cmd": ["{dir}/a.out"],
+        "version_cmd": ["gcc", "--version"]
+    },
+    "C++": {
+        "extension": ".cpp",
+        "compile_cmd": ["g++", "{file}", "-o", "{dir}/a.out"],
+        "run_cmd": ["{dir}/a.out"],
+        "version_cmd": ["g++", "--version"]
+    },
+    "Java": {
+        "extension": ".java",
+        "compile_cmd": ["javac", "{file}"],
+        "run_cmd": ["java", "-cp", "{dir}", "Main"], # Java requires strict class naming
+        "version_cmd": ["javac", "--version"]
     }
 }
 
 def get_language_config(language_name):
-    """Returns the configuration dictionary for a given language."""
     return SUPPORTED_LANGUAGES.get(language_name)
